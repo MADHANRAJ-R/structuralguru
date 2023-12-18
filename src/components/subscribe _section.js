@@ -31,6 +31,11 @@ const Subscribe = () => {
        
         <p className="contact-p3" >Mobile No. <a className="contact-a" href="tel:9629121300">9629121300</a> (For Whatsapp calls also) (GOVT. REGISTERED NO: TN27D<a className="contact-a" href="tel:0018377">0018377</a>)<br/> Email: <a className="contact-a" href="mailto:admin@gururayarassociates.com">admin@gururayarassociates.com</a> , <a className="contact-a" href="mailto:gururayarassociates@gmail.com">gururayarassociates@gmail.com</a></p>
         <p className="contact-p1">Just Message in Whatsapp for appointment before to call or visit our office. Thanks!</p>
+
+        <div className="disclaimer-div">
+          <h1>DISCLAIMER !</h1>
+          <p>To all our clients/customers, we request that you execute all payments <b>ONLY</b> through this website's payment gateway or through our official GPay/PhonePe/Paytm number: <b>+91-9629121300</b>, to avoid issues related to fraudulent activity.</p>
+        </div>
       </div>
     </section>
   );

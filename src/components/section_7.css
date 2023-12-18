@@ -1,11 +1,14 @@
 .sec-7 {
-  padding: 70px 120px;
+  padding: 70px 40px;
   width: 100%;
 }
 
 .video-review-container {
   width: 100%;
-  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .video-review-container h1 {
@@ -22,6 +25,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
+  
 }
 
 .video-review-card {
@@ -49,13 +53,16 @@
 .reviewer-video {
   margin-top: 10px;
 }
-
+.reviewer-video iframe{
+  
+  border-radius: 0.5rem;
+}
 .reviewer-experience {
   margin-top: 10px;
   color: #666;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (min-width:768px) and (max-width:1100px) {
   .sec-7 {
     padding: 70px 30px;
   }
@@ -68,5 +75,30 @@
 
   .video-review-card {
     text-align: center;
+    width: 60%;
+    margin: auto;
+   
+    
   }
+}
+@media screen and (max-width:768px){
+
+  .sec-7 {
+    padding: 70px 30px;
+  }
+  .video-review-container h1 {
+    font-size: 24px;
+  }
+  .video-main-div {
+    grid-template-columns: 1fr;
+  }
+
+  .video-review-card {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+   
+    
+  }
+
 }

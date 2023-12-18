@@ -41,7 +41,7 @@
   width: 50%;
   box-sizing: border-box;
   min-height: fit-content;
-  flex: 1; /* Make it take up available space */
+  flex: 1; 
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -53,10 +53,8 @@
   width: 50%;
   box-sizing: border-box;
   text-align: center;
-  /* Updated property for multiline text */
-  /* Set a maximum width */
   min-height:fit-content;
-  flex: 1; /* Make it take up available space */
+  flex: 1; 
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -81,9 +79,9 @@
   font-size: 14px;
   font-weight: 500;
   text-align: center;
-  width: 400px; /* Updated max-width for better responsiveness */
-  margin: auto; /* Center the review text */
-  white-space: normal; /* Allow text to wrap */
+  width: 400px;
+  margin: auto;
+  white-space: normal; 
 }
 
 .reviewer-name {
@@ -93,7 +91,6 @@
   margin-top: 5px;
 }
 
-/* Animation */
 @keyframes slide-1 {
   0% {
     transform: translateX(0);
@@ -101,7 +98,7 @@
   100% {
     transform: translateX(
       -10000%
-    ); /* Adjust the number based on the number of reviews */
+    ); 
   }
 }
 
@@ -112,7 +109,7 @@
   100% {
     transform: translateX(
       0
-    ); /* Adjust the number based on the number of reviews */
+    );
   }
 }
 

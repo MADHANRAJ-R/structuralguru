@@ -44,8 +44,8 @@
   margin: 0 auto;
   column-gap: 20px;
   row-gap: 20px;
-  justify-content: flex-start;
-  align-items: flex-start;
+  justify-content: space-between;
+  align-items: center;
   padding:1rem 1rem;
   
   
@@ -186,6 +186,7 @@
 ul.basic-plan-features {
   list-style: none;
   padding: 10px 0;
+
 }
 
 ul.basic-plan-features li {
@@ -248,10 +249,6 @@ ul.basic-plan-features li img {
   margin-bottom: 15px;
   padding: 5px 20px;
 }
-
-
-
-
 
 
 .payment-method-2 {
@@ -392,5 +389,9 @@ ul.basic-plan-features li img {
   .pro-plus-column {
     flex: 1;
     width: auto;
+  }
+  .payment-method-1 {
+    flex-direction: column;
+    padding: 0 10px;
   }
 }

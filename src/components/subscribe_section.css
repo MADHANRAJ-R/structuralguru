@@ -57,44 +57,86 @@
   padding: 1rem;
 }
 .contact-loc{
+  animation: none;
+  box-shadow: none;
   margin-bottom:1.5rem ;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4285f4; 
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease , transform 0.3s ease; 
+}
+.contact-loc:hover {
+  background-color: #0c7bdc; 
+  transform: scale(1.05);
 }
 .contact-p3{
   margin-bottom: 1rem;
+
 }
 .whatsappButton{
   animation: none;
   display: flex;
-  justify-content: space-between;
-  text-wrap: nowrap;
   align-items: center;
-  column-gap: 10px;
-  width: 100%;
-  margin: 1.5rem auto;
-  padding:1rem;
+  justify-items: left;
+  padding: 10px 20px;
+  background-color: #25d366; 
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: none;
+  transition: background-color 0.3s ease, transform 0.3s ease;
  
 
   
 }
 .contact-a2{
   text-decoration: none;
-  display: flex;
-  align-items: center;
+  display: inline-block;
+  margin: 1rem 0;
+  
 
   
 }
 .whatsappButton:hover{
-  text-decoration: none;
+  background-color: #128c7e;
+  transform: scale(1.05);
 }
+
 .whatsappButton img{
-  width: 100%;
-  height: 30px;
-  object-fit: cover;
+  width: 30px;
+  height: auto;
+  margin-right: 10px;
 }
-.web-div button:hover{
-  background-color: red;
-  transform: scale(1.02);
+.disclaimer-div {
+  max-width: 600px; 
+  margin: 0 auto;
+  margin-top: 3rem;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f8f8f8;
 }
+
+
+.disclaimer-div h1 {
+  color: red;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+
+.disclaimer-div p {
+  color: #555;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+
 
 @media screen and (max-width: 900px){
   .official-web{
@@ -108,7 +150,7 @@
   .web-h3{
     color: goldenrod;
     font-family: "Fjalla One", sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 700;
     letter-spacing: 1.5px;
   }
@@ -126,12 +168,22 @@
     padding: 15px 16px;
     font-size: 13px;
   }
-  .whatsappButton img{
-    width: 100%;
-    height: 25px;
-    object-fit: cover;
-  }
+  
   .whatsappButton{
-  column-gap: 3px;
+    font-size: 14px;
+  }
+  .contact-loc {
+    font-size: 14px; 
+  }
+  .disclaimer-div {
+    padding: 0px 15px 15px 15px;
+  }
+
+  .disclaimer-div h1 {
+    font-size: 20px;
+  }
+
+  .disclaimer-div p {
+    font-size: 14px;
   }
 }

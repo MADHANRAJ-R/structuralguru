@@ -23,8 +23,8 @@
   object-fit: cover;
 }
 .company-name{
-  font-size: 24px;
-  font-weight: 600;
+  font-size: 26px;
+  font-weight: 700;
   letter-spacing: 2px;
   margin-top:4px ;
 }
@@ -93,7 +93,7 @@
   background-color: black;
   border-radius: 1rem;
   border: 1px solid rgb(255, 199, 0);
-  padding: 4rem 2rem 4rem 2rem;
+  padding: 4rem 2rem;
   width: 90%;
   box-shadow: rgba(53, 51, 48, 0.48) 0px 0px 50px 2px;
   margin-bottom: 50px;
@@ -132,6 +132,8 @@
 .right-div ul {
   list-style-type: none;
   padding: 0;
+  
+ 
 }
 
 .left-div li,
@@ -142,7 +144,7 @@
   text-align: left;
   display: flex;
   justify-content: left;
-  align-items: center;
+  align-items: left;
   margin-bottom: 5px;
   font-family: "Dosis", sans-serif;
   font-weight: 600;
@@ -231,7 +233,7 @@
   .quotes-center {
     position: absolute;
     left: 50%;
-    top: -1.6%;
+    top: -1.9%;
     text-align: center;
     transform: translateX(-50%);
 
@@ -260,11 +262,12 @@
 
   .course-main-div {
     width: 95%;
+    padding:3rem 0.5rem 2rem 2rem;
   }
   .courese-inner-div {
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items:left;
   }
 
   .left-div,

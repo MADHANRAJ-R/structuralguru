@@ -108,7 +108,7 @@ button {
 @media screen and (max-width: 900px) {
   footer {
     flex-direction: column;
-    padding: 1rem;
+    padding:0.2rem 1rem;
     
   }
 
@@ -119,6 +119,9 @@ button {
 
   
   .price h2{
-    font-size: 26px;
+    font-size: 22px;
+  }
+  .price-1 h1{
+    font-size: 24px;
   }
 }
