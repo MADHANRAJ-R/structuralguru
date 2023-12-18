@@ -1,12 +1,42 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import starLogo from "../assets/star-logo.png";
 import "./section_6.css";
 
-const section6 = () => {
+const Section6 = () => {
+
+  const sectionRef = useRef(null);
+
+  useEffect(() => {
+    const options = {
+      root: null,
+      rootMargin: "0px",
+      threshold: 0.5, 
+    };
+
+    const callback = (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          
+          const iframe = sectionRef.current.querySelector("iframe");
+          iframe.src = iframe.src.replace("autoplay=0", "autoplay=1");
+        } else {
+          
+          const iframe = sectionRef.current.querySelector("iframe");
+          iframe.src = iframe.src.replace("autoplay=1", "autoplay=0");
+        }
+      });
+    };
+
+    const observer = new IntersectionObserver(callback, options);
+    observer.observe(sectionRef.current);
+
+    
+    return () => observer.disconnect();
+  }, []);
  
   
   return (
-    <section className="sec-6 show-animate">
+    <section className="sec-6 show-animate" ref={sectionRef}>
       <div className="google-review-div">
         <h1 className="google-review-title">
           VIEW GOOGLE REVIEWS OF THE TRAINING
@@ -14,7 +44,7 @@ const section6 = () => {
         <div className="google-div animate">
           <iframe
             
-            src="https://www.youtube.com/embed/vFX1HXxcDKA?si=2u_EgvxoMBjL5ViR"
+            src="https://www.youtube.com/embed/vFX1HXxcDKA?autoplay=0&si=2u_EgvxoMBjL5ViR"
             title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -229,7 +259,7 @@ const section6 = () => {
           <h2 className="reviewer-name">Magesh G</h2>
         </div>
 
-        {/* 20 completed above */}
+        
 
         <div className="text-review">
           <div className="star-img">
@@ -3359,4 +3389,4 @@ const section6 = () => {
   );
 };
 
-export default section6;
+export default Section6;

@@ -8,17 +8,17 @@ const Section2 = () => {
     const options = {
       root: null,
       rootMargin: "0px",
-      threshold: 0.5, // Adjust this threshold as needed
+      threshold: 0.5, 
     };
 
     const callback = (entries) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
-          // Autoplay the video when section is in view
+          
           const iframe = sectionRef.current.querySelector("iframe");
           iframe.src = iframe.src.replace("autoplay=0", "autoplay=1");
         } else {
-          // Pause the video when section is out of view
+          
           const iframe = sectionRef.current.querySelector("iframe");
           iframe.src = iframe.src.replace("autoplay=1", "autoplay=0");
         }
@@ -28,7 +28,7 @@ const Section2 = () => {
     const observer = new IntersectionObserver(callback, options);
     observer.observe(sectionRef.current);
 
-    // Cleanup the observer when the component is unmounted
+    
     return () => observer.disconnect();
   }, []);
   return (
