@@ -79,6 +79,7 @@
   display: flex;
   font-size: 1.3em;
   margin-top: 10px;
+  color: red;
 }
 .pro-plan-mode{
   display: flex;
@@ -91,7 +92,7 @@
 }
 .pro-plan-mode b{
   font-size: 1.3em;
- 
+  color: red;
 }
 
 .basic-plan-column:hover,
