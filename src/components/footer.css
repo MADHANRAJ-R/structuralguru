@@ -26,6 +26,7 @@ footer h2{
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
+  padding: 6px;
 }
 
 .price-div {
@@ -51,11 +52,11 @@ footer h2{
   justify-content: space-between;
   align-items: center;
 }
-.price-3 h3 {
+.price h3 {
   color: rgb(0, 255, 247);
   
 }
-.price-3 h3 span {
+.price h3 span {
   font-size: 1em;
   font-weight: bold;
   color: orangered;

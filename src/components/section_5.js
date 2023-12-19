@@ -47,10 +47,7 @@ const Section5 = () => {
                 <b>(Pre-Recorded Video Mode)</b>
               </div>
 
-              <div className="plans-p">
-                <b>₹ 3,500/-</b>
-                <p>(Single Payment Only)</p>
-              </div>
+              
 
               <p className="plans-p3">
                 for 1-year access to videos and lifetime access to files.
@@ -109,10 +106,7 @@ const Section5 = () => {
                 <b>(Live Zoom Webinar Mode)</b>
               </div>
 
-              <div className="plans-p">
-                <b>₹ 50,000/-</b>
-                <p>(Single Payment Only)</p>
-              </div>
+              
 
               <p className="plans-p3">
                 for 1-year access to videos and lifetime access to files.
@@ -176,10 +170,7 @@ const Section5 = () => {
                 <b>(Live Offline Class Mode)</b>
               </div>
 
-              <div className="plans-p">
-                <b>₹ 1,00,000/-</b>
-                <p>(Single Payment Only)</p>
-              </div>
+              
 
               <p className="plans-p3">
                 for 1-year access to videos and lifetime access to files.
@@ -253,7 +244,7 @@ const Section5 = () => {
           </div>
 
           <div className="contactPage">
-            <h1 className="contactPageTitle">For more updates, Subscribe </h1>
+            <h1 className="contactPageTitle">For more offers, Subscribe </h1>
 
             <form
               className="contactform animate"
