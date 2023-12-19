@@ -89,7 +89,7 @@ const Accordion = () => {
     {
       question: "What are the software covered in this training?",
       answer:
-        "Structural Ananlysis, Design and Detailing softwares covered are  Etabs, StaadPro, SAFE, and RCDC.",
+        "Structural Ananlysis, Design and Detailing softwares covered are  Etabs, StaadPro, SAFE, RCDC and IdeaStatica.",
     },
 
     {

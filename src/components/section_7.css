@@ -75,7 +75,7 @@
 
   .video-review-card {
     text-align: center;
-    width: 60%;
+    width: 50%;
     margin: auto;
    
     
@@ -84,7 +84,7 @@
 @media screen and (max-width:768px){
 
   .sec-7 {
-    padding: 70px 30px;
+    padding: 70px 40px;
   }
   .video-review-container h1 {
     font-size: 24px;
@@ -95,7 +95,7 @@
 
   .video-review-card {
     text-align: center;
-    width: 100%;
+    width: 95%;
     margin: auto;
    
     

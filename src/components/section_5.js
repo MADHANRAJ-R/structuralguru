@@ -40,9 +40,12 @@ const Section5 = () => {
         <div className="payment-container">
           <div className="payment-method-1 animate">
             <div className="basic-plan-column">
-              <h1 className="plans-h1 basic-h1">
-                Basic <span className="plan-rec">Recommended</span>
-              </h1>
+              <div className="pro-plan-mode-1">
+                <h1 className="plans-h1 basic-h1">
+                  Basic <span className="plan-rec">Recommended</span>
+                </h1>
+                <b>(Pre-Recorded Video Mode)</b>
+              </div>
 
               <div className="plans-p">
                 <b>₹ 3,500/-</b>
@@ -101,7 +104,10 @@ const Section5 = () => {
               </a>
             </div>
             <div className="pro-plan-column">
-              <h1 className="plans-h1 basic-h1">Pro</h1>
+              <div className="pro-plan-mode">
+                <h1 className="plans-h1 basic-h1"> Pro </h1>
+                <b>(Live Zoom Webinar Mode)</b>
+              </div>
 
               <div className="plans-p">
                 <b>₹ 50,000/-</b>
@@ -165,7 +171,10 @@ const Section5 = () => {
             </div>
 
             <div className="pro-plus-column">
-              <h1 className="plans-h1 basic-h1">Pro Plus</h1>
+              <div className="pro-plan-mode">
+                <h1 className="plans-h1 basic-h1"> Pro Plus</h1>
+                <b>(Live Offline Class Mode)</b>
+              </div>
 
               <div className="plans-p">
                 <b>₹ 1,00,000/-</b>
