@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from 'react-scroll';
 import "./section_3.css";
 import tick from "../assets/tick-symbol.png";
 import broucherImg from "../assets/img1.webp";
@@ -149,6 +150,9 @@ const section3 = () => {
             nos sales of this same training by him/her.
           </li>
         </ul>
+        <div className="pricing-btn">
+          <Link activeClass='active' to='paymentId' spy={true} smooth={true} offset={50} duration={1000} className="offer-button"><button>Pricing Plans</button></Link>
+        </div>
       </div>
       <div className="more-content-div animate">
         

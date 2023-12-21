@@ -84,7 +84,12 @@
   width: 100%;
   object-fit: cover;
 }
-
+.pricing-btn{
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 @media screen and (max-width: 900px) {
   .feature-list {
     width: 100%;

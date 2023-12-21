@@ -249,7 +249,7 @@ const Section1 = () => {
             </div>
           </div>
 
-          <Link activeClass='active' to='paymentId' spy={true} smooth={true} offset={50} duration={1000} className="offer-button"><button>Register Now</button></Link>
+          <Link activeClass='active' to='paymentId' spy={true} smooth={true} offset={50} duration={1000} className="offer-button"><button>Pricing Plans</button></Link>
          
           
         </div>

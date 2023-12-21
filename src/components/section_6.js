@@ -1,4 +1,5 @@
 import React, { useEffect, useRef } from "react";
+import {Link} from 'react-scroll';
 import starLogo from "../assets/star-logo.png";
 import "./section_6.css";
 
@@ -3384,6 +3385,9 @@ const Section6 = () => {
           <p className="review">"Very good experienced training provided."</p>
           <h2 className="reviewer-name">Swetha Ranganath</h2>
         </div>
+      </div>
+      <div className="pricing-btn">
+        <Link activeClass='active' to='paymentId' spy={true} smooth={true} offset={50} duration={1000} className="offer-button"><button>Pricing Plans</button></Link>
       </div>
     </section>
   );

@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from 'react-scroll';
 import "./section_7.css";
 
 const section7 = () => {
@@ -175,6 +176,9 @@ const section7 = () => {
               70+ Abroad Engineer's life has transformed !
             </p>
           </div>
+        </div>
+        <div className="pricing-btn">
+          <Link activeClass='active' to='paymentId' spy={true} smooth={true} offset={50} duration={1000} className="offer-button"><button>Pricing Plans</button></Link>
         </div>
       </div>
     </section>
