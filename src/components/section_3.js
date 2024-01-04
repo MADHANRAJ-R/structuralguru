@@ -2,7 +2,7 @@ import React from "react";
 import {Link} from 'react-scroll';
 import "./section_3.css";
 import tick from "../assets/tick-symbol.png";
-import broucherImg from "../assets/img1.webp";
+import broucherImg from "../assets/keyfeatures-logo.jpg";
 
 const section3 = () => {
   return (
